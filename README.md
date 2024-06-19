@@ -1,4 +1,4 @@
-# Simple transactionsystem
+# Simple transaction system
 
 A simple microservice ecosystem that behaves like a very simple transaction system.
 
