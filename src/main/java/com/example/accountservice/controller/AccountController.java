@@ -1,8 +1,8 @@
-package com.example.controller;
+package com.example.accountservice.controller;
 
-import com.example.dto.AccountCreationRequest;
-import com.example.entity.Account;
-import com.example.service.AccountService;
+import com.example.accountservice.dto.AccountCreationRequest;
+import com.example.accountservice.entity.Account;
+import com.example.accountservice.service.AccountService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

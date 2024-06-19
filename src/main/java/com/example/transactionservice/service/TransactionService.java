@@ -1,6 +1,6 @@
-package com.example.service;
+package com.example.transactionservice.service;
 
-import com.example.entity.Transaction;
+import com.example.transactionservice.entity.Transaction;
 
 import java.math.BigDecimal;
 

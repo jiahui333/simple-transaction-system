@@ -1,9 +1,9 @@
-package com.example.service;
+package com.example.transactionservice.service;
 
-import com.example.entity.Account;
-import com.example.entity.Transaction;
-import com.example.repository.AccountRepository;
-import com.example.repository.TransactionRepository;
+import com.example.accountservice.entity.Account;
+import com.example.transactionservice.entity.Transaction;
+import com.example.accountservice.repository.AccountRepository;
+import com.example.transactionservice.repository.TransactionRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

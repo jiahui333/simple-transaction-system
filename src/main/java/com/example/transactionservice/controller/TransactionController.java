@@ -1,8 +1,8 @@
-package com.example.controller;
+package com.example.transactionservice.controller;
 
-import com.example.dto.TransactionRequest;
-import com.example.entity.Transaction;
-import com.example.service.TransactionService;
+import com.example.transactionservice.dto.TransactionRequest;
+import com.example.transactionservice.entity.Transaction;
+import com.example.transactionservice.service.TransactionService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

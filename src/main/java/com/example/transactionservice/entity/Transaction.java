@@ -1,5 +1,6 @@
-package com.example.entity;
+package com.example.transactionservice.entity;
 
+import com.example.accountservice.entity.Account;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

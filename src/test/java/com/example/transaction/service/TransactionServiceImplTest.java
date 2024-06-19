@@ -1,9 +1,10 @@
-package com.example.service;
+package com.example.transaction.service;
 
-import com.example.entity.Account;
-import com.example.entity.Transaction;
-import com.example.repository.AccountRepository;
-import com.example.repository.TransactionRepository;
+import com.example.accountservice.entity.Account;
+import com.example.transactionservice.entity.Transaction;
+import com.example.accountservice.repository.AccountRepository;
+import com.example.transactionservice.repository.TransactionRepository;
+import com.example.transactionservice.service.TransactionServiceImpl;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

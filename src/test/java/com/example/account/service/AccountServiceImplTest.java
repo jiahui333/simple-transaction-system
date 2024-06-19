@@ -1,7 +1,8 @@
-package com.example.service;
+package com.example.account.service;
 
-import com.example.entity.Account;
-import com.example.repository.AccountRepository;
+import com.example.accountservice.entity.Account;
+import com.example.accountservice.service.AccountServiceImpl;
+import com.example.accountservice.repository.AccountRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

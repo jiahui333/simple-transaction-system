@@ -1,8 +1,8 @@
-package com.example.controller;
+package com.example.transaction.controller;
 
-import com.example.entity.Account;
-import com.example.repository.AccountRepository;
-import com.example.repository.TransactionRepository;
+import com.example.accountservice.entity.Account;
+import com.example.accountservice.repository.AccountRepository;
+import com.example.transactionservice.repository.TransactionRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
