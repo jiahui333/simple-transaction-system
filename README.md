@@ -24,7 +24,7 @@ A simple microservice ecosystem that behaves like a very simple transaction sys
 
 #### Transfer
 ```http
-  POST /api/items/${id}
+  POST /transactions/transfer
 ```
 | Parameter | Type     | 
 | :-------- | :------- |
